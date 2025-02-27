@@ -30,7 +30,7 @@ pip install tensorflow keras numpy pandas scikit-learn matplotlib neptune
 
 ## Setup
 1. Replace `your project name` and `your api token` in the `neptune.init_run()` function with your Neptune project details.
-2. Download the stock price dataset of your choice from [Yahoo Finance](https://finance.yahoo.com/) and save it as a CSV file.
+2. Download the stock price dataset of your choice from [Yahoo Finance](https://finance.yahoo.com/lookup/) and save it as a CSV file.
 3. Update the dataset path in `pd.read_csv('path/to/your/dataset.csv')` with your file location.
 
 ## Running the Script
