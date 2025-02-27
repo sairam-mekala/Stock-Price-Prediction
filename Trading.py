@@ -10,8 +10,8 @@ from neptune.integrations.tensorflow_keras import NeptuneCallback
 
 # Initialize Neptune
 run = neptune.init_run(
-    project="2210030461/stock",
-    api_token="eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiIxNTM1MDQwNS1lY2VjLTRkOTItOWZmNy02NGNkYWZhMzAzMWIifQ=="
+    project="your project name",
+    api_token="your api tocken"
 )
 
 # Load your own dataset
