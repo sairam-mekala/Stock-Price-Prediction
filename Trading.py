@@ -15,7 +15,7 @@ run = neptune.init_run(
 )
 
 # Load your own dataset
-data = pd.read_csv('C:/Users/mekal/Downloads/AAPL (2).csv')
+data = pd.read_csv('C:/Users/mekal/Downloads/AAPL.csv')
 
 # Ensure the dataset has a 'Date' and 'Adj Close' column
 data['Date'] = pd.to_datetime(data['Date'])
